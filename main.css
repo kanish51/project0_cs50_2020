@@ -72,5 +72,10 @@ input[type="text"]:hover
 {
     outline: 1px solid silver;
 }
+.btn-group>.btn:focus
+{
+    outline: 1px solid #4285F4;
+    box-shadow: none;
+}
 
 
