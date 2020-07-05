@@ -1,20 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Search</title>
+        <title>Image Search</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" type="text/css" href="main.css">
+        <link rel="stylesheet" type="text/css" href="img.css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
     </head>
     <body>
         <div class="pages-div">
-            <a id="pg1" href="image.html">Image Search</a>
-            <a id="pg2" href="advanced.html">Advanced Search</a>
+            <a id="pg1" href="index.html">Google Search</a>
         </div>
     	<div class="main-logo-div">
     		<img id="main-logo" src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" width="272px" height="92px">
+            <div class="logo-subtext">
+                <span>images</span>
+            </div>
     	</div>
     	<div class="container">
     		<div class="searchbar-button-div">
@@ -23,10 +25,11 @@
 						<div class="form-group">
 							<input type="text" class="form-control google-search" name="q">
                             <img src="http://assets.stickpng.com/images/585e4ae1cb11b227491c3393.png" id="input_img" height="14px" width="14px">
-							<div class="btn-group">
-								<button type="submit" class="btn btn-default">Google Search</button>
-								<button type="submit" class="btn btn-default" name="btnI">I'm Feeling Lucky</button>
-							</div>
+                            <div class="search-btn-div">
+                                <button id="srch" type="submit" name="tbm" value="isch">
+                                    <svg focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path></svg>
+                                </button>
+                            </div>
 						</div>
 					</form>
 				</div>

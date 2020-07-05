@@ -1,9 +1,18 @@
+.logo-subtext
+{
+	color:#4285f4;
+	font:16px/16px roboto-regular,arial,sans-serif;
+	left:215px;
+	position:relative;
+	top:-16px;
+	white-space:nowrap
+}
 .pages-div
 {
 	float: right;
 	margin: 10px;
 }
-#pg1,#pg2
+#pg1
 {
 	font-family: Arial,sans-serif;
 	color: #3c4043;
@@ -21,30 +30,42 @@
 .container
 {
 	/*border: 1px solid blue;*/
-	margin: 28px auto 0px;
+	margin: 5px auto 0px;
 }
 .searchbar-button-div
 {
-	width: 588px;
-	height: 140px;
+	width: 535.6px;
 	/*border: 1px solid red;*/
 	margin: 0px auto 0px;
-}
-.google-form .btn-group
-{
-	margin-left: -30px;
-	padding: 30px 0px;
 }
 #input_img
 {
 	position: relative;
-	top: -71px;
-	left: -130px;
+	top: -39px;
+	left: -243px;
+}
+.search-btn-div
+{
+	position: relative;
+	top: -61px;
+	left: 238px;
+}
+#srch
+{
+	background: white;
+	outline: none;
+	border: none;
+}
+svg
+{
+	fill: #4285F4;
+	width: 24px;
+	height: 24px;
 }
 input[type="text"]
 {
 	margin-top: 2px;
-	height: 46px;
+	height: 45.6px;
 	border-radius: 23px;
 	padding-left: 40px;
 }
@@ -58,19 +79,3 @@ input[type="text"]:hover
 	box-shadow: 0 0 3px 2px lightgray; 
 	border-color: silver;
 }
-.btn-group>.btn
-{
-	font-family: Arial, Helvetica, sans-serif;
-	background-color: #F4F4F4;
-	color: #6D6C71;
-	margin: 0 13px;
-	font-size: 14px;
-	padding-left: 16px;
-	padding-right: 16px;
-}
-.btn-group>.btn:hover
-{
-    outline: 1px solid silver;
-}
-
-
