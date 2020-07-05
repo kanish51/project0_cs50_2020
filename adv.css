@@ -1,0 +1,49 @@
+.topbar
+{
+	background-color: #F1F1F1;
+	height: 60px;
+}
+#logo
+{
+	margin-top: 17px;
+	margin-bottom: 14px;
+	margin-left: 16px;
+}
+.appbar
+{
+	color:#d93025;
+	font-size:20px;
+	font-family: arial, sans-serif;
+	padding: 22px 35px;
+	border-bottom: 2px solid #F5F5F5;
+}
+.main-div
+{
+	max-width: 1140px;
+	min-width: 200px;
+	width: 96%;
+	margin: 40px 2% 0 45px;
+}
+.head-bar
+{
+	height: 42px;
+}
+span
+{
+	font-family: arial, sans-serif;
+}
+#H-findpages
+{
+	display: inline;
+	width: 182.4px;
+}
+#H-todo
+{
+	display: inline;
+	float: right;
+	font-weight: bold;
+	color: #777777;
+	font-size: 13px; 
+	width: 383px;
+	padding-top: 3px;
+}
