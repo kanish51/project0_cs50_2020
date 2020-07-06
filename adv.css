@@ -3,6 +3,16 @@
 	background-color: #F1F1F1;
 	height: 60px;
 }
+#backtohome
+{
+	float: right;
+	color: black;
+	margin-top: 17px;
+	margin-right: 10px;
+	font-size: 15px;
+	font-family: Arial,sans-serif;
+	color: #3c4043; 
+}
 #logo
 {
 	margin-top: 17px;
@@ -46,4 +56,92 @@ span
 	font-size: 13px; 
 	width: 383px;
 	padding-top: 3px;
+}
+.label-div label
+{
+	font-family: arial, sans-serif;
+	font-size: 13px; 
+}
+.main-content-form>div
+{
+	/*border: 1px solid green;*/
+}
+.label-div
+{
+	display: inline-block;
+	width: 182.4px;
+	height: 42px;
+
+}
+.searchbox-div
+{
+	display: inline-block;
+	
+}
+.textinput
+{
+	-webkit-border-radius:1px;
+	-moz-border-radius:1px;
+	border-radius:1px;
+	border:1px solid #d9d9d9;
+	border-top:1px solid #c0c0c0;
+	font-size:13px;
+	height:29px;
+	width: 572px;
+	padding:1px 8px;
+	font-family: arial, sans-serif;
+	margin-top: -2px;
+	margin-left: -5px;
+
+}
+.textinput:focus
+{
+	-webkit-box-shadow:inset 0 1px 2px rgba(0,0,0,0.3);
+	-moz-box-shadow:inset 0 1px 2px rgba(0,0,0,0.3);
+	box-shadow:inset 0 1px 2px rgba(0,0,0,0.3);
+	border:1px solid #4d90fe;
+	outline:none;
+}
+.label2-div
+{
+	display: inline-block;
+	float: right;
+	width: 369.8px;
+	height: 42px;
+}
+.label2-div p
+{
+	font-family: arial, sans-serif;
+	font-size: 11px; 
+	padding-top: 5px;
+	margin-left: -1px;
+}
+.label2-div span
+{
+	font-family: monospace;
+	font-size: 11px; 
+	padding-top: 4px;
+}
+#last-hint
+{
+	margin-top: -5px;
+}
+.adv-search-button-div
+{
+	position: relative;
+	margin-left: 245px;
+}
+.adv-search-button
+{
+	display: block;
+	margin: 12px auto;
+	width: 120px;
+	height: 30px;
+	font-family: Arial;
+	font-size: 11px;
+	font-weight: bold;
+	background-color: #498AF2;
+	color: white;
+	outline: none;
+	border: none;
 }

@@ -10,7 +10,8 @@
     </head>
     <body>
         <div class="topbar">
-            <img id="logo" src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="Go to Google Home" width="91px" height="31px">
+            <a href="index.html"><img id="logo" src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="Go to Google Home" width="91px" height="31px"></a>
+            <a id="backtohome" href="index.html">Google Search</a>
         </div>
         <div class="appbar"> 
             <label style="padding-left:10px;margin-bottom:0px">Advanced Search</label>
@@ -24,6 +25,59 @@
                     <span>To do this in the search box.</span>
                 </div>
             </div>
+            <form class="main-content-form" action="http://google.com/search">
+                <div>
+                    <div class="label-div">
+                        <label>all these words:</label>
+                    </div>
+                    <div class="searchbox-div">
+                        <input class="textinput" autofocus="autofocus" name="as_q" type="text">
+                    </div>
+                    <div class="label2-div">
+                        <p>Type the important words: <span>tri-colour rat terrier</span></p>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="label-div">
+                        <label>this exact word or phrase:</label>
+                    </div>
+                    <div class="searchbox-div">
+                        <input class="textinput" autofocus="autofocus" name="as_epq" type="text">
+                    </div>
+                    <div class="label2-div">
+                        <p>Put exact words in quotes: <span>"rat terrier"</span></p>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="label-div">
+                        <label>any of these words:</label>
+                    </div>
+                    <div class="searchbox-div">
+                        <input class="textinput" autofocus="autofocus" name="as_oq" type="text">
+                    </div>
+                    <div class="label2-div">
+                        <p>Type <span>OR</span> between all the words you want: <span>miniature OR standard</span></p>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="label-div">
+                        <label>none of these words:</label>
+                    </div>
+                    <div class="searchbox-div">
+                        <input class="textinput" autofocus="autofocus" name="as_eq" type="text">
+                    </div>
+                    <div class="label2-div">
+                        <p id="last-hint">Put a minus sign just before words that you don't want:<br><span>-rodent, -"Jack Russell"</span></p>
+                    </div>
+                </div>
+
+                <div  class="adv-search-button-div">
+                    <input class="adv-search-button" value="Advanced Search" type="submit">
+                </div>
+            </form>
         </div>
     </body>
 </html>
